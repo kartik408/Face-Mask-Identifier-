@@ -88,8 +88,7 @@ For this classifier to work properly in all conditions, we need a diverse datase
 It may seem a little akward, but with the power of deep learning in our hands, impossible is nothing!
 
 |![](Results/Masked_Face_Augmentation/Original.jpg)|![](Results/Masked_Face_Augmentation/Landmarks.jpg)|
-|:---:|:---:|
-|**Original**|**Facial Landmarks**|
+
 
 The picture on the left is the original image and that on the right shows the points (green dots) that we need to artificially put a face mask on it. These points are found by doing some manipulation on facial landmarks, namely nose_bridge and chin. Top point is near the 1st and 2nd points in the detected nose_bridge points. Left, Right and Bottom points are near the first, last and middle points in the detected chin points respectively.
 
@@ -97,8 +96,7 @@ Now we just need to resize and rotate the image of mask according to these 4 ref
 
 
 |![](Results/Masked_Face_Augmentation/Masked_1.jpg)|![](Results/Masked_Face_Augmentation/Masked_2.jpg)|![](Results/Masked_Face_Augmentation/Masked_3.jpg)|![](Results/Masked_Face_Augmentation/Masked_4.jpg)|
-|:---:|:---:|:---:|:---:|
-|**Default**|**White**|**Blue**|**Black**|
+
 
 These augmented pics do not seem very real, but it is better having them rather than overfitting on a smaller dataset. We just need to take care that the original versions of these augmented samples do not appear in the training data, otherwise the model won't generalize well on new faces. This augmentation does not work very well for faces that are not fully visible or whose landmarks are not detected properly, but still manages to produce some decent results for various facial structures and orientations. Some other samples are shown below. 
 
@@ -113,14 +111,12 @@ As we are working on video frames, it's highly probable we encounter blurred fac
 
 
 |![](Results/Blurring_Effects/Original.jpg)|![](Results/Blurring_Effects/Average_Blur.jpg)|![](Results/Blurring_Effects/Gaussian_Blur.jpg)|
-|:---:|:---:|:---:|
-|**Original**|**Average Blur**|**Gaussian Blur**|
+
 
 On the same picture, motion blur with a kernel of size (7,7), in the 4 principal directions looks something like this :
 
 |![](Results/Blurring_Effects/Horizontal_Motion_Blur.jpg)|![](Results/Blurring_Effects/Vertical_Motion_Blur.jpg)|![](Results/Blurring_Effects/Main_Diagonal_Motion_Blur.jpg)|![](Results/Blurring_Effects/Anti_Diagonal_Motion_Blur.jpg)|
-|:---:|:---:|:---:|:---:|
-|**Horizontal**|**Vertical**|**Main Diagonal**|**Anti Diagonal**|
+
 
 
 
@@ -140,7 +136,7 @@ Artificial Intelligence has sure come a long way in solving such real world prob
 ## Final Notes
 **Thanks for going through this Repository! Have a nice day.**</br>
 </br>**Got any Queries? Feel free to contact me.**</br>
-</br>**Kartik Rathi**
+</br>**Kartikrathi208@gmail.com**
 <p align="left">
 
 </p>
