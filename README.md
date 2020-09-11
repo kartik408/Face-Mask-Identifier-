@@ -142,5 +142,5 @@ Artificial Intelligence has sure come a long way in solving such real world prob
 </br>**Got any Queries? Feel free to contact me.**</br>
 </br>**Kartik Rathi**
 <p align="left">
-<a href="mailto:kartikrathi208@gmail.com"><  title="Gmail" alt="mailto:kartikrathi208@gmail.com"></a>
+
 </p>
