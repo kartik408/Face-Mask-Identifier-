@@ -1,4 +1,4 @@
-# Face-Mask-Identification-
+# Face-Mask-Identifier-
 
 This project aims at monitoring people violating mask over video footage coming from CCTV Cameras. Uses YOLOv3 along with DBSCAN clustering for recognizing potential intruders. A Face Mask Classifier model (ResNet50) is trained and deployed for identifying people not wearing a face mask. For aiding the training process, augmented masked faces are generated (using facial landmarks) and blurring effects (frequently found in video frames) are also imitated.
 
